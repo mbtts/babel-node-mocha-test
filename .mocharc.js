@@ -1,5 +1,5 @@
 module.exports = {
-  'require': [
-    'src/register',
+  require: [
+    '@babel/register',
   ],
 };
