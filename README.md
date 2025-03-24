@@ -12,6 +12,8 @@ And fail using:
 
 ### Node.js [v20.19.0](https://nodejs.org/en/blog/release/v20.19.0)
 
+❌ Mocha tests (using Babel register) fail:
+
 ```shell
 pnpm test
 
@@ -25,7 +27,7 @@ pnpm test
     at async ModuleJob._link (node:internal/modules/esm/module_job:110:19)
 ```
 
-Babel register on its own works:
+✅ Babel register on its own works:
 
 ```shell
 pnpm start
@@ -36,6 +38,8 @@ pnpm start
 ```
 
 ### Node.js [v20.18.3](https://nodejs.org/en/blog/release/v20.18.3)
+
+✅ Mocha tests (using Babel register) pass:
 
 ```shell
 pnpm test
@@ -49,7 +53,7 @@ pnpm test
   1 passing (1ms)
 ```
 
-Babel register on its own works:
+✅ Babel register on its own works:
 
 ```shell
 pnpm start
