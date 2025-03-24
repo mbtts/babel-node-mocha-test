@@ -1,0 +1,20 @@
+{
+  "name": "babel-node-mocha-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --require ./src/register.js src/index.js",
+    "test": "mocha \"src/**.test.js\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/register": "^7.25.9",
+    "mocha": "^11.2.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
